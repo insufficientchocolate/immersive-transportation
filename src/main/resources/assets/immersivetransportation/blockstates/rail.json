@@ -4,6 +4,7 @@
 		"model": "immersivetransportation:rail.obj"
 	},
 	"variants": {
-		"normal": [{}]
+		"normal": [{}],
+		"inventory": [{}]
 	}
 }

@@ -4,8 +4,10 @@ import io.github.insufficientchocolate.immersivetransportation.ImmersiveTranspor
 import io.github.insufficientchocolate.immersivetransportation.Proxy;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.obj.OBJLoader;
+import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
+@Mod.EventBusSubscriber
 public class ClientProxy extends Proxy
 {
 	@SubscribeEvent

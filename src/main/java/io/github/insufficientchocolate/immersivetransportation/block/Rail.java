@@ -10,5 +10,12 @@ public class Rail extends Block
 		super(Material.ANVIL);
 		setUnlocalizedName("rail");
 		setRegistryName("rail");
+		setLightOpacity(0);
+	}
+
+	@Override
+	public boolean isOpaqueCube(IBlockState state)
+	{
+		return false;
 	}
 }
