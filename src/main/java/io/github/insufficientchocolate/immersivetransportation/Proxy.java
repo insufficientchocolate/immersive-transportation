@@ -11,11 +11,11 @@ public class Proxy
 {
 
 	@SubscribeEvent
-	public void onRegisterItem(RegistryEvent.Register<Item> e) {
+	public static void onRegisterItem(RegistryEvent.Register<Item> e) {
 	}
 
 	@SubscribeEvent
-	public void onRegisterBlock(RegistryEvent.Register<Block> e) {
+	public static void onRegisterBlock(RegistryEvent.Register<Block> e) {
 		e.getRegistry().register(Blocks.Rail);
 	}
 }

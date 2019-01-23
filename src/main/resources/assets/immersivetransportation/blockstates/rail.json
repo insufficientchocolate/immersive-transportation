@@ -1,8 +1,7 @@
 {
 	"forge_marker": 1,
 	"defaults": {
-		"model": "immersivetransportation:rail",
-		"uvlock": true
+		"model": "immersivetransportation:rail.obj"
 	},
 	"variants": {
 		"normal": [{}]
